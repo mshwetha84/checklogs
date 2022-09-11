@@ -32,9 +32,9 @@ echo "==Logs from ${host}==STARTS" >>./${file}
 #ssh -i ~/.ssh/known_hosts -o ForwardAgent=yes $user@$host
 #ssh -i /home/${user}/.ssh/known_hosts $user@$host
 
-#ssh ${user}@$host "/bin/grep ${searchText} /www/mkto/log/${subPrefix}Customer.log" >>./${file}
+#ssh ${user}@$host "/bin/grep ${searchText} /<path>/${subPrefix}Customer.log" >>./${file}
 
-ssh ${host} "/bin/grep ${searchText} /www/mkto/log/${subPrefix}Customer.log" >>./${file}
+ssh ${host} "/bin/grep ${searchText} /<path>/${subPrefix}Customer.log" >>./${file}
 echo "==Logs from ${host}== ENDS" >>./${file}
 
 logout
