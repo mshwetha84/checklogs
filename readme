@@ -1,4 +1,4 @@
 checklogs
 This is useful to fetch logs from multiple unix servers from windows itself
-chnage <username> and <servername> accordingly
+chnage <username> <path> and <servername> accordingly
 run runCommands.sh
