@@ -1,0 +1,4 @@
+<username>
+warning
+error
+eof
